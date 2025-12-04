@@ -26,7 +26,7 @@ model_contributors: [
 ]
 license: "CC-BY_SA-4.0"
 methods: "Age-structured ordinary differential equations model"
-methods_long: "The model framework is based on ordinary differential equations and age-stratified contact matrices derived from both macro (census) and micro (survey) data sources. RSV transmissibility follows a seasonal pattern which is calibrated using  hospitalization data from RSV-Net for the 2022-2023, 2023-2024 and 2024-2025 seasons. Furthermore, our model uses age-dependent infection-to-hospitalization risks, whose posterior distribution is estimated by our optimization procedure and their prior distribution is based on RSV literature."
+methods_long: "The model framework is based on ordinary differential equations and age-stratified contact matrices derived from both macro (census) and micro (survey) data sources. RSV transmissibility and the initial number of active infections is calibrated using hospitalization data from RSV-Net for the 2022-2023, 2023-2024 and 2024-2025 seasons. The age- and location-dependent infection-to-hospitalization risks are adjusted to reproduce empirical hospitalization attack rates. The posterior parameter distributions are estimated by our optimization procedure and their prior distributions are based on RSV literature."
 model_version: "1.0"
 website_url: "https://github.com/CEPH-Lab"
 team_funding: "Cooperative agreement CDC-RFA-FT-23-0069 from the CDC’s Center for Forecasting and Outbreak Analytics"
